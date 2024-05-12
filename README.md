@@ -1,5 +1,7 @@
 <h1>Lesson Reminder<h1>
 
+![Lesson Reminder gif](./public/lesson-reminder.gif)
+
 [👉click here to lesson reminder](https://lesson-reminderr.netlify.app/)
 
 <h2>Project Skeleton</h2>
@@ -8,24 +10,18 @@
 Lesson Reminder  (folder)
   |          
   |---public (folder)
-  |---src (folder)   
-  |     |---assets (folder)
-  |     |     |---logo.png
-  |     |     └---bg-image.jpg
-  |     |    
-  |     |  
-  |     |---helpers (folder)
+  |---src (folder)    
+  |     |---helper (folder)
   |     |     └---data.js   
   |     |  
   |     |---components (folder)
   |     |     |---header (folder)
-  |     |     |     |---Header.css
+  |     |     |     |---Header.module.css
   |     |     |     └---Header.jsx
   |     |     |    
-  |     |     └---main (folder)
-  |     |           |---Main.jsx
-  |     |           |---Main.css
-  |     |           └---MainCard.jsx
+  |     |     └---lesson (folder)
+  |     |           |---Lesson.jsx
+  |     |           └---Lesson.module.css
   |     |         
   |     |
   |     |---App.js
